@@ -1,0 +1,76 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    background: white;
+  }
+
+/* Defining style for "Latitude" situated on the Top
+Left of the Page*/
+.latitude {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+body {
+    margin-bottom: 150px;
+    font-family: Arial, "Times New Roman", Times, serif;
+    background:#ededed;
+}
+
+#description-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+/* h1 {
+    text-align: center;
+    color: red;
+  } */
+
+.right-images{
+    width: 140px;
+    height: 140px;
+}
+
+/* Define styles for the header of the left box*/
+#left-header{
+    color: lightseagreen;
+    margin-bottom: 33px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Define style, background and font for the left image*/
+#left-box{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:30px 20px 25px 20px;
+    /* padding: auto; */
+}
+
+/* Define styles for the header of the right box*/
+#right-header{
+    color: lightseagreen;
+    margin-bottom: 33px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Define style, background and font for the right images*/
+#right-box{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding:30px 20px 25px 20px;
+}
